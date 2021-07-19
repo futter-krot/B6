@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Album artist filter</title>
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/132491/music-album.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+{% load bootstrap %}
+{% block content %}
+<ul class="list-inline">
+<h1>Quantity of albums: {{ albums.count }}</h1>
+{% for i in albums %}
+    <li class="list-inline-item" style="display: flex; flex-direction: column; margin-top: 1rem">
+        <span class="badge badge-info">Album: {{ i.album }}    ; Artist: {{ i.artist }}    ; Year: {{ i.year }}    ; Genre: {{i.genre}}</span>
+    </li>
+{% empty %}
+    <h1>No albums found</h1>
+{% endfor %}
+</ul>
+{% endblock %}
+</body>
+</html>

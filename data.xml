@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<django-objects version="1.0">
+   <object model="lib.album" pk="1">
+      <field name="year" type="IntegerField">1963</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Please Please Me</field>
+   </object>
+   <object model="lib.album" pk="2">
+      <field name="year" type="IntegerField">1963</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">With the Beatles</field>
+   </object>
+   <object model="lib.album" pk="3">
+      <field name="year" type="IntegerField">1964</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">A Hard Day's Night</field>
+   </object>
+   <object model="lib.album" pk="4">
+      <field name="year" type="IntegerField">1964</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Beatles for Sale</field>
+   </object>
+   <object model="lib.album" pk="5">
+      <field name="year" type="IntegerField">1964</field>
+      <field name="artist" type="CharField">The Rolling Stones</field>
+      <field name="genre" type="CharField">Rhythm and blues</field>
+       <field name="album" type="CharField">The Rolling Stones</field>
+   </object>
+   <object model="lib.album" pk="6">
+      <field name="year" type="IntegerField">1964</field>
+      <field name="artist" type="CharField">The Rolling Stones</field>
+      <field name="genre" type="CharField">Rhythm and blues</field>
+       <field name="album" type="CharField">12 X 5</field>
+   </object>
+    <object model="lib.album" pk="7">
+      <field name="year" type="IntegerField">1963</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Papers, Please</field>
+   </object>
+   <object model="lib.album" pk="8">
+      <field name="year" type="IntegerField">1967</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Between the Buttons</field>
+   </object>
+   <object model="lib.album" pk="9">
+      <field name="year" type="IntegerField">1967</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Their Satanic Majesties Request</field>
+   </object>
+   <object model="lib.album" pk="10">
+      <field name="year" type="IntegerField">1969</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Yellow Submarine</field>
+   </object>
+   <object model="lib.album" pk="11">
+      <field name="year" type="IntegerField">1973</field>
+      <field name="artist" type="CharField">The Rolling Stones</field>
+      <field name="genre" type="CharField">Rhythm and blues</field>
+       <field name="album" type="CharField">Goats Head Soup</field>
+   </object>
+   <object model="lib.album" pk="12">
+      <field name="year" type="IntegerField">1972</field>
+      <field name="artist" type="CharField">The Rolling Stones</field>
+      <field name="genre" type="CharField">Rhythm and blues</field>
+       <field name="album" type="CharField">Exile on Main St.</field>
+   </object>
+    <object model="lib.album" pk="13">
+      <field name="year" type="IntegerField">1963</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Please Please Me</field>
+   </object>
+   <object model="lib.album" pk="14">
+      <field name="year" type="IntegerField">1963</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Yesterday</field>
+   </object>
+   <object model="lib.album" pk="15">
+      <field name="year" type="IntegerField">1964</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Aftermath</field>
+   </object>
+   <object model="lib.album" pk="16">
+      <field name="year" type="IntegerField">1966</field>
+      <field name="artist" type="CharField">Beatles</field>
+      <field name="genre" type="CharField">Rock and roll</field>
+       <field name="album" type="CharField">Revolver</field>
+   </object>
+   <object model="lib.album" pk="17">
+      <field name="year" type="IntegerField">1965</field>
+      <field name="artist" type="CharField">The Rolling Stones</field>
+      <field name="genre" type="CharField">Rhythm and blues</field>
+       <field name="album" type="CharField">December's Children</field>
+   </object>
+   <object model="lib.album" pk="18">
+      <field name="year" type="IntegerField">1978</field>
+      <field name="artist" type="CharField">The Rolling Stones</field>
+      <field name="genre" type="CharField">Rhythm and blues</field>
+       <field name="album" type="CharField">Some Girls</field>
+   </object>
+</django-objects>

@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Album</title>
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/132491/music-album.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body style="padding: 0 10rem 0 10rem">
+{% block content %}
+{% load bootstrap %}
+    <h1>Create your album here:</h1>
+<form action="exist" method="post">
+<div class="form-group">
+	{% csrf_token %}
+	{{ form.as_p }}
+</div>
+    <button type="submit" class="btn btn-primary" style="margin: 20px 0 20px 0">Submit</button>
+</form>
+{% endblock %}
+</body>
+</html>
